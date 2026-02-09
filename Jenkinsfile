@@ -1,7 +1,7 @@
 pipeline {
     environment {
         IMAGE_NAME = "${PARAM_IMAGE_NAME}"                    /*alpinehelloworld par exemple*/
-        APP_EXPOSED_PORT = "80"            /*80 par défaut*/
+        APP_EXPOSED_PORT = "80"            /*80 par déffaut*/
         APP_NAME = "ozbagapp"                        /*eazytraining par exemple*/
         IMAGE_TAG = "latest"                      /*tag docker, par exemple latest*/
         STAGING = "ozbagapp-staging"
