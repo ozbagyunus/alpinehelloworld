@@ -8,10 +8,10 @@ pipeline {
         PRODUCTION = "ozbagapp-prod"
         DOCKERHUB_ID = "dockerhub_ozbagyunus"
         DOCKERHUB_PASSWORD = credentials('dockerhub')
-        STG_API_ENDPOINT = "ip10-0-5-6-d64r2eu57ed000f1a0ug-1993.direct.docker.labs.eazytraining.fr"
-        STG_APP_ENDPOINT = "ip10-0-5-6-d64r2eu57ed000f1a0ug-80.direct.docker.labs.eazytraining.fr"
-        PROD_API_ENDPOINT = "ip10-0-5-7-d64r2eu57ed000f1a0ug-1993.direct.docker.labs.eazytraining.fr"
-        PROD_APP_ENDPOINT = "ip10-0-5-7-d64r2eu57ed000f1a0ug-80.direct.docker.labs.eazytraining.fr"
+        STG_API_ENDPOINT = "ip10-0-10-5-d64sllu57ed000f1a14g-1993.direct.docker.labs.eazytraining.fr"
+        STG_APP_ENDPOINT = "ip10-0-10-5-d64sllu57ed000f1a14g-80.direct.docker.labs.eazytraining.fr"
+        PROD_API_ENDPOINT = "ip10-0-10-6-d64sllu57ed000f1a14g-1993.direct.docker.labs.eazytraining.fr"
+        PROD_APP_ENDPOINT = "ip10-0-10-6-d64sllu57ed000f1a14g-80.direct.docker.labs.eazytraining.fr"
         INTERNAL_PORT = "5000"              /*5000 par défaut*/
         EXTERNAL_PORT = "${PARAM_PORT_EXPOSED}"
         CONTAINER_IMAGE = "${DOCKERHUB_ID}/${IMAGE_NAME}:${IMAGE_TAG}"
