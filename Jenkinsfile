@@ -6,7 +6,7 @@ pipeline {
         IMAGE_TAG = "latest"                      /*tag docker, par exemple latest*/
         STAGING = "ozbagapp-staging"
         PRODUCTION = "ozbagapp-prod"
-        DOCKERHUB_ID = "dockerhub_ozbagyunus"
+        DOCKERHUB_ID = "ozbagyunus"
         DOCKERHUB_PASSWORD = credentials('dockerhub')
         STG_API_ENDPOINT = "ip10-0-10-5-d64sllu57ed000f1a14g-1993.direct.docker.labs.eazytraining.fr"
         STG_APP_ENDPOINT = "ip10-0-10-5-d64sllu57ed000f1a14g-80.direct.docker.labs.eazytraining.fr"
