@@ -7,7 +7,7 @@ pipeline {
         STAGING = "ozbagapp-staging"
         PRODUCTION = "ozbagapp-prod"
         DOCKERHUB_ID = "ozbagyunus"
-        DOCKERHUB_PASSWORD = credentials('dockerhub')
+        DOCKERHUB_PASSWORD = credentials('ozbagyunus')
         STG_API_ENDPOINT = "ip10-0-10-5-d64sllu57ed000f1a14g-1993.direct.docker.labs.eazytraining.fr"
         STG_APP_ENDPOINT = "ip10-0-10-5-d64sllu57ed000f1a14g-80.direct.docker.labs.eazytraining.fr"
         PROD_API_ENDPOINT = "ip10-0-10-6-d64sllu57ed000f1a14g-1993.direct.docker.labs.eazytraining.fr"
